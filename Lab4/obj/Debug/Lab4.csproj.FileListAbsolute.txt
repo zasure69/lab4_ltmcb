@@ -1,0 +1,16 @@
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\bin\Debug\Lab4.exe.config
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\bin\Debug\Lab4.exe
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\bin\Debug\Lab4.pdb
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\obj\Debug\Lab4.csproj.AssemblyReference.cache
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\obj\Debug\Lab4.Bai1.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.cache
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\obj\Debug\Lab4.exe
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\obj\Debug\Lab4.pdb
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\obj\Debug\Lab4.Bai2.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\bin\Debug\HtmlAgilityPack.dll
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\bin\Debug\HtmlAgilityPack.pdb
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\bin\Debug\HtmlAgilityPack.xml
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\obj\Debug\Lab4.Bai4.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB4\Lab4\Lab4\obj\Debug\Lab4.csproj.Up2Date

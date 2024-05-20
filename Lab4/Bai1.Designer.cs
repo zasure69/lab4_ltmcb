@@ -30,7 +30,7 @@
         {
             this.tbUrl = new System.Windows.Forms.TextBox();
             this.btnGet = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.rtbHTML = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // tbUrl
@@ -51,23 +51,23 @@
             this.btnGet.UseVisualStyleBackColor = true;
             this.btnGet.Click += new System.EventHandler(this.btnGet_Click);
             // 
-            // richTextBox1
+            // rtbHTML
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(43, 90);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(1020, 517);
-            this.richTextBox1.TabIndex = 2;
-            this.richTextBox1.Text = "";
+            this.rtbHTML.Location = new System.Drawing.Point(43, 90);
+            this.rtbHTML.Name = "rtbHTML";
+            this.rtbHTML.Size = new System.Drawing.Size(1020, 517);
+            this.rtbHTML.TabIndex = 2;
+            this.rtbHTML.Text = "";
             // 
-            // Form1
+            // Bai1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1106, 639);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.rtbHTML);
             this.Controls.Add(this.btnGet);
             this.Controls.Add(this.tbUrl);
-            this.Name = "Form1";
+            this.Name = "Bai1";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -78,7 +78,7 @@
 
         private System.Windows.Forms.TextBox tbUrl;
         private System.Windows.Forms.Button btnGet;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox rtbHTML;
     }
 }
 
