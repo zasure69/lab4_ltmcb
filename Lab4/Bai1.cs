@@ -39,7 +39,12 @@ namespace Lab4
         }
         private void btnGet_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             //getHTML();
+=======
+            string htmlSrc = getHTML(tbUrl.Text);
+            rtbHTML.Text = htmlSrc;
+>>>>>>> 56fa897eb6d8d070072c123e72cb77ced8c44ee4
         }
     }
 }
