@@ -1,0 +1,11 @@
+D:\code\C#\lab4_ltmcb\Lab4\obj\Debug\Lab4.csproj.AssemblyReference.cache
+D:\code\C#\lab4_ltmcb\Lab4\obj\Debug\Lab4.Bai1.resources
+D:\code\C#\lab4_ltmcb\Lab4\obj\Debug\Lab4.Bai3.resources
+D:\code\C#\lab4_ltmcb\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+D:\code\C#\lab4_ltmcb\Lab4\obj\Debug\Lab4.csproj.GenerateResource.cache
+D:\code\C#\lab4_ltmcb\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+D:\code\C#\lab4_ltmcb\Lab4\bin\Debug\Lab4.exe.config
+D:\code\C#\lab4_ltmcb\Lab4\bin\Debug\Lab4.exe
+D:\code\C#\lab4_ltmcb\Lab4\bin\Debug\Lab4.pdb
+D:\code\C#\lab4_ltmcb\Lab4\obj\Debug\Lab4.exe
+D:\code\C#\lab4_ltmcb\Lab4\obj\Debug\Lab4.pdb

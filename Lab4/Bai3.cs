@@ -13,18 +13,16 @@ using System.Windows.Forms;
 
 namespace Lab4
 {
-    public partial class Bai1 : Form
+    public partial class Bai3 : Form
     {
-        public Bai1()
+        public Bai3()
         {
             InitializeComponent();
         }
-
-
-        private string getHTML(string szURL)
+        private string getHTML(string url)
         {
             // Create a request for the URL.
-            WebRequest request = WebRequest.Create(szURL);
+            WebRequest request = WebRequest.Create(url);
             // Get the response.
             WebResponse response = request.GetResponse();
             // Get the stream containing content returned by the server.
@@ -37,9 +35,23 @@ namespace Lab4
             response.Close();
             return responseFromServer;
         }
-        private void btnGet_Click(object sender, EventArgs e)
+
+        private void tbUrl_TextChanged(object sender, EventArgs e)
         {
-            //getHTML();
+            
+        }
+
+        private void btnDownload_Click(object sender, EventArgs e)
+        {
+            //string htmlSrc = getHTML(tbUrl.Text);
+            // rtbSrccode = 
+            WebClient myCl = new WebClient();
+            Stream res = myCl.OpenRead(tbUrl.Text);
+            myCl.DownloadFile(tbUrl.Text, tbPath.Text);
+            using (StreamReader reader = new StreamReader(res))
+            {
+                rtbSrccode.Text = reader.ReadToEnd();
+            }
         }
     }
 }
