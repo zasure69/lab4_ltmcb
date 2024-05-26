@@ -36,6 +36,7 @@
             this.btnBack = new System.Windows.Forms.Button();
             this.btnForward = new System.Windows.Forms.Button();
             this.rtbSrc = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // webBrowser1
@@ -50,9 +51,9 @@
             // tbUrl
             // 
             this.tbUrl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.tbUrl.Location = new System.Drawing.Point(131, 1);
+            this.tbUrl.Location = new System.Drawing.Point(219, 1);
             this.tbUrl.Name = "tbUrl";
-            this.tbUrl.Size = new System.Drawing.Size(763, 30);
+            this.tbUrl.Size = new System.Drawing.Size(675, 30);
             this.tbUrl.TabIndex = 1;
             // 
             // btnBrowse
@@ -91,7 +92,7 @@
             // btnBack
             // 
             this.btnBack.AutoSize = true;
-            this.btnBack.Location = new System.Drawing.Point(2, 1);
+            this.btnBack.Location = new System.Drawing.Point(90, 1);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(50, 30);
             this.btnBack.TabIndex = 5;
@@ -102,7 +103,7 @@
             // btnForward
             // 
             this.btnForward.AutoSize = true;
-            this.btnForward.Location = new System.Drawing.Point(58, 1);
+            this.btnForward.Location = new System.Drawing.Point(146, 1);
             this.btnForward.Name = "btnForward";
             this.btnForward.Size = new System.Drawing.Size(67, 30);
             this.btnForward.TabIndex = 6;
@@ -119,11 +120,22 @@
             this.rtbSrc.TabIndex = 7;
             this.rtbSrc.Text = "";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 1);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(68, 30);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Exit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Bai4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1191, 647);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnForward);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnPageSrc);
@@ -149,5 +161,6 @@
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnForward;
         private System.Windows.Forms.RichTextBox rtbSrc;
+        private System.Windows.Forms.Button button1;
     }
 }

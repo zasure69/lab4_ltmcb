@@ -23,6 +23,11 @@ namespace Lab4
         private void btnPost_Click(object sender, EventArgs e)
         {
             // Create a request for the URL.
+            if (!tbUrl.Text.StartsWith("http"))
+            {
+                MessageBox.Show("Url không hợp lệ!");
+                return;
+            }
             WebRequest request = WebRequest.Create(tbUrl.Text);
             
             request.Method = "POST";
@@ -42,6 +47,11 @@ namespace Lab4
             var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
 
             rtbHTML.Text = responseString;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

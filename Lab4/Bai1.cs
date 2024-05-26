@@ -39,12 +39,23 @@ namespace Lab4
         }
         private void btnGet_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            //getHTML();
-=======
+            if (!tbUrl.Text.StartsWith("http"))
+            {
+                MessageBox.Show("Url không hợp lệ!");
+                return;
+            }
             string htmlSrc = getHTML(tbUrl.Text);
             rtbHTML.Text = htmlSrc;
->>>>>>> 56fa897eb6d8d070072c123e72cb77ced8c44ee4
+        }
+
+        private void Bai1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

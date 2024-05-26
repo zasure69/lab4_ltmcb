@@ -32,13 +32,14 @@
             this.btnPost = new System.Windows.Forms.Button();
             this.tbUrl = new System.Windows.Forms.TextBox();
             this.tbData = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // rtbHTML
             // 
-            this.rtbHTML.Location = new System.Drawing.Point(17, 116);
+            this.rtbHTML.Location = new System.Drawing.Point(17, 113);
             this.rtbHTML.Name = "rtbHTML";
-            this.rtbHTML.Size = new System.Drawing.Size(1020, 517);
+            this.rtbHTML.Size = new System.Drawing.Size(861, 517);
             this.rtbHTML.TabIndex = 5;
             this.rtbHTML.Text = "";
             // 
@@ -68,11 +69,22 @@
             this.tbData.Size = new System.Drawing.Size(861, 30);
             this.tbData.TabIndex = 6;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(884, 113);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 50);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Exit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Bai2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1063, 659);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tbData);
             this.Controls.Add(this.rtbHTML);
             this.Controls.Add(this.btnPost);
@@ -90,5 +102,6 @@
         private System.Windows.Forms.Button btnPost;
         private System.Windows.Forms.TextBox tbUrl;
         private System.Windows.Forms.TextBox tbData;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -45,13 +45,36 @@ namespace Lab4
         {
             //string htmlSrc = getHTML(tbUrl.Text);
             // rtbSrccode = 
+            if (!tbUrl.Text.StartsWith("http"))
+            {
+                MessageBox.Show("Url không hợp lệ!");
+                return;
+            }
             WebClient myCl = new WebClient();
             Stream res = myCl.OpenRead(tbUrl.Text);
-            myCl.DownloadFile(tbUrl.Text, tbPath.Text);
+            string download = "";
+            if (!tbPath.Text.EndsWith("html"))
+            {
+                download = tbPath.Text+ "\\" + "download.html";
+            }
+            else download = tbPath.Text;
+            myCl.DownloadFile(tbUrl.Text, download);
             using (StreamReader reader = new StreamReader(res))
             {
+                string mess = "";
                 rtbSrccode.Text = reader.ReadToEnd();
+                if (!tbPath.Text.Contains(":\\"))
+                {
+                    mess = Application.ExecutablePath + "\\" + download + " Download thành công vô folder!";
+                }
+                else { mess = download + " Download thành công vô folder!"; }
+                MessageBox.Show(mess);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -41,6 +41,11 @@ namespace Lab4
 
         private void btnDownload_Click(object sender, EventArgs e)
         {
+            if (!tbUrl.Text.StartsWith("http"))
+            {
+                MessageBox.Show("Url không hợp lệ!");
+                return;
+            }
             using (FolderBrowserDialog ofd = new FolderBrowserDialog())
             {
                 if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
@@ -175,6 +180,11 @@ namespace Lab4
             SuppressScriptErrors();
             tbUrl.Text = webBrowser1.Url.ToString();
             webBrowser1.ScriptErrorsSuppressed = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
